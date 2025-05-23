@@ -6,7 +6,7 @@
 
 ## Intorduction and Goals
 
-Asuransi perjalanan adalah jenis asuransi yang memberikan perlindungan selama bepergian, baik di dalam negeri maupun ke luar negeri. Perusahaan yang bergerak di bidang asuransi perjalanan ingin mengidentifikasi pemegang polis yang berisiko mengajukan klaim asuransi. Dengan mengetahui pemegang polis yang berisiko, erusahaan asuransi perjalanan ingin mengurangi kerugian finansial yang besar akibat klaim yang tidak terdeteksi dengan memprediksi pemegang polis yang kemungkinan besar akan mengajukan klaim. Maka dari itu pemodelan klasifikasi kali ini berfokus untuk mengejar nilai recall dan pengaturan treshold dari keseimbangan PR-Curve.
+Asuransi perjalanan adalah jenis asuransi yang memberikan perlindungan selama bepergian, baik di dalam negeri maupun ke luar negeri. Perusahaan yang bergerak di bidang asuransi perjalanan ingin mengidentifikasi pemegang polis yang berisiko mengajukan klaim asuransi. Dengan mengetahui pemegang polis yang berisiko, perusahaan asuransi perjalanan ingin mengurangi kerugian finansial yang besar akibat klaim yang tidak terdeteksi dengan memprediksi pemegang polis yang kemungkinan besar akan mengajukan klaim. Maka dari itu pemodelan klasifikasi kali ini berfokus untuk mengejar nilai recall dan pengaturan treshold dari keseimbangan PR-Curve.
 
 - Metric Evaluation
 
