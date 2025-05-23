@@ -176,4 +176,5 @@ Berdasarkan hasil pemodelan ini, didapatkan kesimpulan dan rekomendasi yaitu:
 2. Model dapat digunakan ketika perusahaan asuransi ingin memastikan bahwa seseorang akan mengajukan klaim dan dapat menanggung biaya klaim.
 3. Model tidak dapat digunakan lebih lanjut jika memang data yang didapatkan imbalanced atau tidak terbagi rata jumlah datanya ketiap kelasn.
 4. Penggunaan model klasik seperti regresi logistik masih mampu mendapatkan hasil yang baik. Namun perlu diperhatikan kembali asumsi-asumsi yang harus dipenuhi
-4. Untuk pemodelan selanjutnya, diharapkan data yang digunakan lebih mendetail seperti penambahan id customer, riwayat perjalanannya,banyaknya customer melakuakn perjalanan, dll
+5. Untuk pemodelan selanjutnya, diharapkan data yang digunakan lebih mendetail seperti penambahan id customer, riwayat perjalanannya,banyaknya customer melakuakn perjalanan, dll
+6. Mencoba menguji menggunakan model lain seperti ensemble, CATboost,ADABoost, Decision Tree untuk melihat peforma yang lebih signifikan.
