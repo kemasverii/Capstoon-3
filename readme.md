@@ -44,7 +44,8 @@ Metrics yang digunakan pada pemodelan klasifikani ini yaitu
 Recall (atau sering disebut Sensitivity, True Positive Rate, atau Hit Rate) adalah metrik evaluasi yang digunakan dalam masalah klasifikasi untuk mengukur seberapa baik model dalam menangkap atau mengidentifikasi kasus yang benar-benar positif. Secara umum, recall mengukur proporsi dari seluruh kasus positif yang sebenarnya (dalam konteks ini, kasus yang memiliki klaim) yang berhasil diprediksi dengan benar oleh model. Ini memberikan gambaran tentang seberapa efektif model dalam "menangkap" kelas positif, atau dengan kata lain, seberapa baik model menghindari False Negatives (FN).
 
 
-![alt text](<Screenshot 2025-05-23 203457.png>)
+![Screenshot 2025-05-23 203457](https://github.com/user-attachments/assets/8739726f-75c3-4c32-99d7-4f59aa27ac23)
+
 
 # EDA
 Menggunakana Dataset Travel Insurance, didapatkan atribut data seperti ini:
