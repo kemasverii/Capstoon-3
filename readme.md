@@ -2,9 +2,11 @@
 - Kemas Veriandra Ramadhan
 - Capstone 3
 - JCDS - 018
-- Intorduction and Goals
+  
 
-Asuransi perjalanan adalah jenis asuransi yang memberikan perlindungan selama bepergian, baik di dalam negeri maupun ke luar negeri. Perusahaan yang bergerak di bidang asuransi perjalanan ingin mengidentifikasi pemegang polis yang berisiko mengajukan klaim asuransi. Dengan mengetahui pemegang polis yang berisiko, erusahaan asuransi perjalanan ingin mengurangi kerugian finansial yang besar akibat klaim yang tidak terdeteksi dengan memprediksi pemegang polis yang kemungkinan besar akan mengajukan klaim. Maka dari itu pemodelan klasifikasi kali ini berfokus untuk mengejar nilai recall dan pengaturan treshold dari keseimbangan PR-Curve.
+## Intorduction and Goals
+
+Asuransi perjalanan adalah jenis asuransi yang memberikan perlindungan selama bepergian, baik di dalam negeri maupun ke luar negeri. Perusahaan yang bergerak di bidang asuransi perjalanan ingin mengidentifikasi pemegang polis yang berisiko mengajukan klaim asuransi. Dengan mengetahui pemegang polis yang berisiko, perusahaan asuransi perjalanan ingin mengurangi kerugian finansial yang besar akibat klaim yang tidak terdeteksi dengan memprediksi pemegang polis yang kemungkinan besar akan mengajukan klaim. Maka dari itu pemodelan klasifikasi kali ini berfokus untuk mengejar nilai recall dan pengaturan treshold dari keseimbangan PR-Curve.
 
 - Metric Evaluation
 
@@ -44,7 +46,8 @@ Metrics yang digunakan pada pemodelan klasifikani ini yaitu
 Recall (atau sering disebut Sensitivity, True Positive Rate, atau Hit Rate) adalah metrik evaluasi yang digunakan dalam masalah klasifikasi untuk mengukur seberapa baik model dalam menangkap atau mengidentifikasi kasus yang benar-benar positif. Secara umum, recall mengukur proporsi dari seluruh kasus positif yang sebenarnya (dalam konteks ini, kasus yang memiliki klaim) yang berhasil diprediksi dengan benar oleh model. Ini memberikan gambaran tentang seberapa efektif model dalam "menangkap" kelas positif, atau dengan kata lain, seberapa baik model menghindari False Negatives (FN).
 
 
-![alt text](<Screenshot 2025-05-23 203457.png>)
+![Screenshot 2025-05-23 203457](https://github.com/user-attachments/assets/8739726f-75c3-4c32-99d7-4f59aa27ac23)
+
 
 # EDA
 Menggunakana Dataset Travel Insurance, didapatkan atribut data seperti ini:
@@ -176,5 +179,4 @@ Berdasarkan hasil pemodelan ini, didapatkan kesimpulan dan rekomendasi yaitu:
 2. Model dapat digunakan ketika perusahaan asuransi ingin memastikan bahwa seseorang akan mengajukan klaim dan dapat menanggung biaya klaim.
 3. Model tidak dapat digunakan lebih lanjut jika memang data yang didapatkan imbalanced atau tidak terbagi rata jumlah datanya ketiap kelasn.
 4. Penggunaan model klasik seperti regresi logistik masih mampu mendapatkan hasil yang baik. Namun perlu diperhatikan kembali asumsi-asumsi yang harus dipenuhi
-5. Untuk pemodelan selanjutnya, diharapkan data yang digunakan lebih mendetail seperti penambahan id customer, riwayat perjalanannya,banyaknya customer melakuakn perjalanan, dll
-6. Mencoba menguji menggunakan model lain seperti ensemble, CATboost,ADABoost, Decision Tree untuk melihat peforma yang lebih signifikan.
+4. Untuk pemodelan selanjutnya, diharapkan data yang digunakan lebih mendetail seperti penambahan id customer, riwayat perjalanannya,banyaknya customer melakuakn perjalanan, dll
